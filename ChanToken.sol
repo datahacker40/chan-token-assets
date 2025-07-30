@@ -1,10 +1,29 @@
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-
-contract ChanToken is ERC20 {
-constructor() ERC20("Chan Token", "CHAN") {
-_mint(msg.sender, 1000000000 * 10 ** decimals()); // 1,000,000,000 CHAN
-}
+{
+  "name": "Chan Token",
+  "symbol": "CHAN",
+  "description": "A memecoin on Solana built for the community.",
+  "image": "https://raw.githubusercontent.com/datahacker40/chan-token-assets/main/chanlogo.png",
+  "decimals": 9,
+  "seller_fee_basis_points": 0,
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Memecoin"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/datahacker40/chan-token-assets/main/chanlogo.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "5HhZcSuYHEBr6GmvuDEu6k4u3rRfv7VtJrJtjZPUEtGK",
+        "share": 100
+      }
+    ]
+  }
 }
