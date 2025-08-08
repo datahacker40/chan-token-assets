@@ -3,7 +3,7 @@
   "symbol": "CHAN",
   "description": "A memecoin on Solana built for the community.",
   "image": "https://raw.githubusercontent.com/datahacker40/chan-token-assets/main/chanlogo.png",
-  "decimals": 9,
+  "decimals": 6,
   "seller_fee_basis_points": 0,
   "attributes": [
     {
